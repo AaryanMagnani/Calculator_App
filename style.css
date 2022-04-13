@@ -2,28 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(#50c6ed,#45e958);
+    background: linear-gradient(#07e95de2,#8a7deafd,#e4eb0ef7);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .name{
     width: 360 px;
     text-align: center;
     padding-bottom: 15px;
-    color: rgb(249, 249, 249);
+    color: rgb(33, 31, 174);
     font-family: 'Times New Roman', Times, serif;
 }
 
 .container{
     width: 360px;
+    outline: auto;
+    outline-color: brown;
     padding: 15px;
     background: rgba(255,255,255,0.1);
     border-radius: 12px;
@@ -34,7 +38,8 @@ body{
     width: 100%;
     padding: 8px;
     font-size: 20px;
-    outline: none;
+    outline: auto;
+    outline-color: brown;
     text-align: right;
     height: 50px;
     color: white;
@@ -59,4 +64,9 @@ body{
 .container input[type="button"]:hover{
     background: rgba(255,255,255,0.1);
 }
-
+#image {    
+    background-color: lightgreen;  
+    object-fit: none;  
+    align-self: center;
+    justify-self: right;
+    }  
